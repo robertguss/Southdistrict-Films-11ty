@@ -1,0 +1,41 @@
+/*
+|--------------------------------------------------------------------------
+|                                 HERO
+|--------------------------------------------------------------------------
+*/
+
+section#hero {
+  // margin-top: 80px;
+  // height: 90vh;
+  // width: 100%;
+  // border: 5px solid red;
+
+  .columns {
+    padding: 0;
+  }
+
+  .hero-logo-container {
+    // border: 2px solid gold;
+    padding: 100px 0;
+    text-align: center;
+
+    svg {
+      width: 200px;
+      height: 200px;
+      // border: 2px solid green;
+      fill: white;
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+|                      SMALL MEDIA QUERIES
+|                       max-width 640px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 40em) {
+}
+
+/* SMALL MEDIA QUERY */

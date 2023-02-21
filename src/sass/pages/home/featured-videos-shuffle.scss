@@ -1,0 +1,60 @@
+/*
+|--------------------------------------------------------------------------
+|                                 Featured Videos
+|--------------------------------------------------------------------------
+*/
+
+section#featured-videos {
+  padding: 0 0 4% 0;
+  // border: 5px solid green;
+}
+
+.lg-sub-html {
+  // display: none;
+}
+
+.page-section {
+  padding: 0;
+}
+
+.featured-films-row-container {
+  padding-bottom: 30px;
+  // border: 5px solid red;
+}
+
+.featured-videos-container {
+  padding: 0 5px;
+}
+
+.works-filter a.active,
+.works-filter a:hover,
+.works-filter a.active:hover {
+  color: #fff;
+}
+
+.jquery-active-click-trigger {
+  z-index: -99;
+}
+
+.work-title {
+  color: #aaa;
+  font-family: $font-pn-semi-bold;
+}
+
+.work-descr {
+  p {
+    font-family: $font-pn-light;
+  }
+}
+
+/* Hover State */
+
+.works-grid.hover-white .work-item:hover .work-img:after {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.works-grid.hover-white .work-item:hover .work-intro,
+.works-grid.hover-white .work-item:hover .work-title,
+.works-grid.hover-white .work-item:hover .work-descr {
+  color: #fff;
+}

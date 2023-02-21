@@ -21,12 +21,8 @@
     "pre-commit": "npm-run-all format --parallel lint:*",
     "beautify-html": "prettier --write dist/**/*.html",
     "optimize-png": "node scripts/optimize-png.js",
-    "validate:ci": "npm-run-all --parallel lint:*"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
-    }
+    "validate:ci": "npm-run-all --parallel lint:*",
+    "deploy:surge": "npm run build && surge --domain intelligent-pain.surge.sh"
   },
   "author": "einomi",
   "license": "ISC",

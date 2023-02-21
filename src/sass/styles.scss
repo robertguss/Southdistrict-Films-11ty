@@ -1,17 +1,40 @@
-@import 'constants';
-@import 'colors';
-@import 'lib/base';
-@import 'fonts';
-@import 'reset';
-@import 'global';
-@import 'layout';
-@import 'extends';
+// This is the single file output by sass. It is intended to ONLY @import other files.
 
-/***=== COMPONENTS ===***/
-@import '../components/button/button';
-@import '../components/title/title';
-@import '../components/container/container';
-@import '../components/some-component/some-component';
+// NORMALIZE
+@import 'tools/normalize';
 
-/***=== PAGES ===***/
-@import './pages/home';
+// TYPEPLATE
+@import 'typeplate-starter-kit/scss/typeplate-index';
+
+//Featured Films
+@import 'vendor/style';
+@import 'vendor/style-responsive';
+
+// TOOLS
+@import 'tools/fonts';
+@import 'tools/vars';
+// @import 'tools/media-queries'; // Include Breakpoint Above!
+@import 'tools/colors/colors';
+@import 'tools/general-override';
+
+// PAGES / PARTIALS
+@import 'partials/navigation';
+// @import 'partials/navigation-jet';
+@import 'partials/nav-overlay';
+@import 'partials/footer';
+
+// HOMEPAGE
+// @import 'pages/home/hero-video';
+@import 'pages/home/hero-logo';
+@import 'pages/home/mission-statement';
+//@import 'pages/home/featured-videos';
+@import 'pages/home/featured-videos-shuffle';
+
+// About
+@import 'pages/about/hero';
+
+// Clients
+@import 'pages/clients/hero';
+
+// Roster
+@import 'pages/roster/hero';

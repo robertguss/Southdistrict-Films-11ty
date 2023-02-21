@@ -1,0 +1,145 @@
+/************************************
+        FOOTER       FOOTER
+*************************************/
+
+footer {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #444;
+  background: black;
+
+  .ion {
+    padding-top: 20px;
+    padding-right: 10px;
+    color: #fff;
+    font-size: 2em;
+
+    &:hover {
+      color: #444;
+    }
+  }
+} /* footer */
+
+.footer-logo-wrapper {
+  text-align: center;
+  // border: 5px solid green;
+
+  svg {
+    width: 300px;
+    fill: #444;
+  }
+}
+
+.danny-barton-contact-info {
+  width: 200px;
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+  // border: 2px solid gold;
+
+  p {
+    margin: 0;
+    color: #444;
+  }
+
+  .ion-email {
+    padding-right: 10px;
+    color: #444;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #eee;
+      transition: all 0.3s;
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #eee;
+      transition: all 0.3s;
+    }
+  }
+
+  .danny-barton-name-link {
+    margin-top: 50px;
+    // border: 1px solid red;
+  }
+} /* .danny-barton-contact-info */
+
+.footer-socials-wrapper {
+  text-align: center;
+  // padding: 10px 0;
+  // border: 5px solid red;
+
+  p {
+    margin: 0;
+    color: #444;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  li,
+  a {
+    display: inline-block;
+    padding-right: 5px;
+    color: #444;
+    text-decoration: none;
+
+    &:hover {
+      color: #eee;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.footer-copy-wrapper {
+  text-align: center;
+
+  span {
+    color: #444;
+    font-size: 0.8rem;
+  }
+}
+
+.rjg-credit {
+  a,
+  span {
+    color: #444;
+    text-decoration: none;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #eee;
+      transition: all 0.3s;
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+|                      SMALL MEDIA QUERIES
+|                       max-width 640px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 40em) {
+  .footer-logo-wrapper {
+    svg {
+      width: 250px;
+      fill: #444;
+    }
+  }
+} /* SMALL MEDIA QUERY */

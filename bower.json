@@ -1,0 +1,21 @@
+{
+  "name": "Yo-Gulp-Starter",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "^3.3.1",
+    "foundation-sites": "^6.2.1",
+    "slick-carousel": "slick.js#^1.6.0",
+    "typeplate-starter-kit": "^3.0.1",
+    "wow": "WOW#^1.1.2",
+    "animate.css": "^3.5.1",
+    "Ionicons": "ionicons#^2.0.1",
+    "isotope": "^3.0.0",
+    "imagesloaded": "^4.1.0",
+    "bootstrap": "^3.3.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
