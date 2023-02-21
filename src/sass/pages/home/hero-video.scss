@@ -1,0 +1,68 @@
+/*
+|--------------------------------------------------------------------------
+|                                 HERO
+|--------------------------------------------------------------------------
+*/
+
+section#hero {
+  // margin-top: 80px;
+  height: 90vh;
+  // width: 100%;
+  // border: 5px solid red;
+
+  .columns {
+    padding: 0;
+  }
+
+  .hero-video-container {
+    position: relative;
+    height: 90vh;
+    // background: url('../images/hero/golf.jpg');
+    background-size: cover;
+    // border: 5px solid gold;
+
+    video {
+      width: 100%;
+      height: 90vh;
+    }
+  }
+}
+
+.video-controls-container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+
+  i {
+    color: #fff;
+    font-size: 2.5rem;
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+|                      SMALL MEDIA QUERIES
+|                       max-width 640px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 40em) {
+  .video-controls-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+
+    i {
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  }
+} /* SMALL MEDIA QUERY */

@@ -1,7 +1,7 @@
 const gulp = require('gulp');
 
 const scss = require('./gulp-tasks/styles');
-const tailwind = require('./gulp-tasks/tailwind');
+// const tailwind = require('./gulp-tasks/tailwind');
 const svg = require('./gulp-tasks/svg');
 const zip = require('./gulp-tasks/zip');
 const watch = require('./gulp-tasks/watch');
@@ -9,7 +9,7 @@ const watch = require('./gulp-tasks/watch');
 
 gulp.task('svg', svg);
 
-gulp.task('styles', gulp.parallel(scss, tailwind));
+gulp.task('styles', gulp.parallel(scss));
 
 gulp.task('zip', zip);
 

@@ -1,0 +1,47 @@
+/*
+|--------------------------------------------------------------------------
+|                                 Mission Statement
+|--------------------------------------------------------------------------
+*/
+
+section#mission-statement {
+  padding: 40px 0;
+  // background: white;
+  // border: 5px solid red;
+}
+
+.mission-statement-container {
+  p {
+    margin: 0;
+    font-family: $font-pn-thin;
+    letter-spacing: 1px;
+  }
+
+  .mission-statement-s {
+    padding-right: 10px;
+    float: left;
+
+    svg {
+      width: 45px;
+      padding-top: 5px;
+      fill: #fff;
+    }
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+|                      SMALL MEDIA QUERIES
+|                       max-width 640px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 40em) {
+  section#mission-statement {
+    padding: 20px 0;
+  }
+
+  .mission-statement-container p {
+    font-size: 0.8rem;
+  }
+} /* SMALL MEDIA QUERY */

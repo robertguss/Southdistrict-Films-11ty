@@ -1,0 +1,92 @@
+/********************************************************
+    NAVIGATION    OVERLAY    NAVIGATION    OVERLAY
+*********************************************************/
+
+section#nav-overlay {
+  // background: white;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  // border: 5px solid purple;
+
+  .sd-logo-overlay {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    // border: 5px solid red;
+
+    svg {
+      width: 300px;
+      fill: #fff;
+    }
+
+    h3 {
+      color: #fff;
+    }
+  }
+
+  .nav-overlay-content-wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // border: 2px solid yellow;
+  } /* nav-content-wrapper */
+
+  .nav-overlay-ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+    li {
+      padding: 2% 0;
+      color: $silver;
+      font-size: 1.2rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+
+      a {
+        color: #fff;
+        font-family: $font-pn-thin;
+        text-decoration: none;
+
+        &:hover {
+          color: #ccc;
+          text-decoration: none;
+        }
+      } /* a */
+    } /* li */
+  } /* nav-overlay-ul */
+} /* section#nav-overlay */
+
+/*
+|--------------------------------------------------------------------------
+|                      SMALL MEDIA QUERIES
+|                       max-width 640px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 40em) {
+  .sd-logo-overlay {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    // border: 5px solid red;
+
+    svg {
+      width: 280px !important;
+      fill: #fff;
+    }
+
+    h3 {
+      color: #fff;
+    }
+  }
+} /* SMALL MEDIA QUERY */

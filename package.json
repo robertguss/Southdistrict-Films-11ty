@@ -23,11 +23,6 @@
     "optimize-png": "node scripts/optimize-png.js",
     "validate:ci": "npm-run-all --parallel lint:*"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run pre-commit"
-    }
-  },
   "author": "einomi",
   "license": "ISC",
   "dependencies": {

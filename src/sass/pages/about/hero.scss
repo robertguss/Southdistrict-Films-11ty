@@ -1,0 +1,77 @@
+/*
+|--------------------------------------------------------------------------
+|                                 About Hero
+|--------------------------------------------------------------------------
+*/
+
+section#about-hero {
+  padding-top: 80px;
+}
+
+.about-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #666;
+  margin-bottom: 20px;
+}
+
+.about-copy-wrapper {
+  padding: 50px;
+  // border: 1px solid #444;
+
+  p {
+    margin: 0;
+  }
+}
+
+/*
+|--------------------------------------------------------------------------
+|                      MEDIUM MEDIA QUERIES
+|                min-width 641px and max-width 1024px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .about-row {
+    display: block;
+    padding: 20px;
+    border: 1px solid #666;
+    margin-bottom: 20px;
+  }
+
+  .about-img-column {
+    text-align: center;
+  }
+} /* MEDIUM MEDIA QUERY */
+
+/*
+|--------------------------------------------------------------------------
+|                      SMALL MEDIA QUERIES
+|                       max-width 640px
+|--------------------------------------------------------------------------
+*/
+
+@media only screen and (max-width: 40em) {
+  .about-row {
+    display: block;
+    padding: 5px;
+    border: 1px solid #666;
+    margin-bottom: 20px;
+  }
+
+  .about-img-column {
+    text-align: center;
+  }
+
+  .about-copy-wrapper {
+    padding: 10px;
+    // border: 1px solid #444;
+
+    p {
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+} /* SMALL MEDIA QUERY */
