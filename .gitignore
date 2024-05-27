@@ -70,8 +70,6 @@ yarn.lock
 .fuse_hidden*
 *.zip
 
-package-lock.json
-
 # Local Netlify folder
 .netlify
 functions/*.zip
